@@ -532,8 +532,8 @@ a.instagram-bg:hover {
 
 a.ig-logo{
      background: url(../img/ig.svg);
-    height: 5px;
-    width:5px;
+    height: 1px;
+    width:1px;
 }
 
 a.tiktok-bg {
@@ -547,8 +547,8 @@ a.tiktok-bg:hover{
 
 a.tiktok-logo{
  background: url(../img/tiktok.svg);
-    height: 5px;
-    width:5px;
+    height: 1px;
+    width:1px;
 }
 
 a.linkedin-bg {
@@ -562,8 +562,8 @@ a.linkedin-bg:hover {
 
 a.linkedin-logo{
  background: url(../img/linkedin.svg);
-    height: 5px;
-    width:5px;
+    height: 1px;
+    width:1px;
 }
 
 .copyright .text-right {
