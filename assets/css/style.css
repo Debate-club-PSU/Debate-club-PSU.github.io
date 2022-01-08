@@ -6,6 +6,10 @@
 
 /* CUSTOM RESETS
 ================================================== */
+html{
+    scroll-behavior: smooth;
+}
+
 a {
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -129,12 +133,14 @@ html, body {
 /* HEADER
 ================================================== */
 .site-header {
-    position: absolute;
+    position: fixed;
+    top: 0;
     padding: 50px 0 0;
     background-color: transparent;
     width: 100%;
     z-index: 3;
 }
+
 
 /* Site-logo */
 .site-title {
@@ -156,7 +162,6 @@ html, body {
 }
 
 /* Navigation */
-
 
 .navbar-collapse {
     text-align: center;
@@ -606,24 +611,51 @@ a.linkedin-logo{
 
 
 .contact-info {
-    padding-left: 40px;
-    color: #0F4C75;
+    padding-left: 0px;
+    color: #0F4C75; 
+    position: relative;
 }
 
-.contact-info h3 {
-    margin-left: 0;
+.contact-info h3{
+    margin-left: 20%;
     color: #0F4C75;
-
+  
 }
+.contact-info a{
+    margin-left: 20%;
+}
+
+
+
 
 .contact-info .list-unstyled li {
     font-size: 14px;
     font-weight: 300;
     color: #3282B8;
+    margin-left: 20%;
 }
 
 .contact-info .list-unstyled + h3,
 .contact-info a + h3 {
     margin-top: 30px;
+
 }
 
+.mapouter{
+    overflow:  hidden;
+    padding-bottom: 100%;
+    position:  relative;
+    height: 0;
+}
+
+.mapouter iframe{
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+}
