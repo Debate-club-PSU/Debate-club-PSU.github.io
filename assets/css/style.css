@@ -530,7 +530,7 @@ a.instagram-bg:hover {
     background-color: #C13584;
 }
 
-.instagram-logo{
+a.ig-logo{
      background: url(../img/ig.svg);
 }
 
@@ -543,7 +543,7 @@ a.tiktok-bg:hover{
   background-color: #000000;
 }
 
-.tiktok-logo{
+a.tiktok-logo{
  background: url(../img/tiktok.svg)
 }
 
@@ -556,7 +556,7 @@ a.linkedin-bg:hover {
   background-color: #007bb5;
 }
 
-linkedin-logo{
+a.linkedin-logo{
  background: url(../img/linkedin.svg)
 }
 
