@@ -275,7 +275,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/icon.jpeg) no-repeat center / cover; 
+    background: url(../img/iconsite.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     display: table;
@@ -378,16 +378,15 @@ html, body {
 .section-features{
     background-color: transparent;
 }
-.section-features h2 {
-    padding-bottom: 40px;
-    font-size: 30px;
-    padding-left: 40px;
+.section-features h3 {
+    font-size: 70px;
+    
     color: #1B262C;
 
 }
 
 .section-features p{
-    padding-left: 40px;
+    padding-right:40px;
     color: #3282B8;
 }
 
@@ -396,7 +395,7 @@ html, body {
     right: 15px;
 
     height: 400px;
-    width:  600px;
+    width:  470px;
     
 }
 
@@ -406,7 +405,10 @@ html, body {
 }
 
 
-.section-services .col-md-3:nth-child(n+5) .service {
+.section-services .col-md-6:nth-child(n+5) .service {
+    margin-top: 60px;
+}
+.section-services .col-md-4:nth-child(n+3) .service {
     margin-top: 60px;
 }
 
@@ -515,6 +517,7 @@ html, body {
     font-size: 18px;
     border: 1px solid;
     border-radius: 50px;
+    align-content: center;
 }
 
 .social-links a:hover {
